@@ -1,7 +1,7 @@
 import os
 
 mapping = {}
-with open(os.path.dirname(__file__)+"/../apache_logs_big", "r") as f:
+with open(os.path.dirname(__file__)+"/../apache_logs_short", "r") as f:
     f.readline().split(" ")
     for line in f:
         resp = line.split(" ")[8]

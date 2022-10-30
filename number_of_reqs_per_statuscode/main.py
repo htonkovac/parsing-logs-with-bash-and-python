@@ -2,8 +2,8 @@ import os
 with open(os.path.dirname(__file__) + "/../apache_logs_big","r") as f:
     lines = f.readlines()
     requests = list()
-    for line in lines:
-        requests.append(line.split(" "))
+    # for line in lines:
+    #     requests.append(line.split(" "))
 
     # request_counts = {}
 
